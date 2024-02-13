@@ -3,3 +3,6 @@ ng new fundamentos-angular
 y
 cd fundamentos-angular 
 npm start
+
+Criar component:
+ng generate component segundo-component
