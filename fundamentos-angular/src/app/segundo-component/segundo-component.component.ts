@@ -7,4 +7,5 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SegundoComponentComponent {
   nome = "João";
+  dataNascimento = "1996-01-01";
 }
