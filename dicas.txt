@@ -1,0 +1,5 @@
+Passos criar projeto angular:
+ng new fundamentos-angular 
+y
+cd fundamentos-angular 
+npm start
