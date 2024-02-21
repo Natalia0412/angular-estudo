@@ -6,3 +6,6 @@ npm start
 
 Criar component:
 ng generate component segundo-component
+
+Criar pipe: 
+ng g multiplica-por
