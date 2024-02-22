@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-componente-pai',
@@ -7,4 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComponentePaiComponent  {
   sobrenome:string = "Vieira";
+
+  mostraNomeCompleto(nomeCompleto: any) {
+    alert(` O nome completo é ${nomeCompleto}`);
+  }
 }

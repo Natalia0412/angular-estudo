@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-componente-filho',
@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ComponenteFilhoComponent  {
   @Input() sobrenome:string = "";
+  @Output() mostraNome = new EventEmitter();
   nome:string = "";
 
 }

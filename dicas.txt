@@ -9,3 +9,6 @@ ng generate component segundo-component
 
 Criar pipe: 
 ng g multiplica-por
+
+Criar service:
+ng g service nome-service
