@@ -12,3 +12,12 @@ ng g multiplica-por
 
 Criar service:
 ng g service nome-service
+
+
+Para criar projeto sem router
+ng new nome-projeto
+n
+y
+
+npm i @angular/router
+ng g module app-router
