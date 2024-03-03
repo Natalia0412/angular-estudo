@@ -21,3 +21,10 @@ y
 
 npm i @angular/router
 ng g module app-router
+
+
+ng g module lazy-loading --route=lazy-loading --module=app.module
+
+
+ng g guard auth
+enter

@@ -2,11 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { AppRouterModule } from './app-router/app-router.module';
+import { AppRouterModule } from './app-router.module';
 import { PrimeiraPaginaComponent } from './primeira-pagina/primeira-pagina.component';
 import { SegundaPaginaComponent } from './segunda-pagina/segunda-pagina.component';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 import { PaginaComParametroComponent } from './pagina-com-parametro/pagina-com-parametro.component';
+import { PaginaProtegidaComponent } from './pagina-protegida/pagina-protegida.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { PaginaComParametroComponent } from './pagina-com-parametro/pagina-com-p
     PrimeiraPaginaComponent,
     SegundaPaginaComponent,
     PaginaNaoEncontradaComponent,
-    PaginaComParametroComponent
+    PaginaComParametroComponent,
+    PaginaProtegidaComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRouterModule
+    AppRouterModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
