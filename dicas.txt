@@ -41,3 +41,11 @@ quando o usuário acessar a URL /produtos no navegador, o Angular carregará o m
 --module app.module: Este argumento especifica o módulo principal do seu aplicativo (app.module.ts) onde as rotas e outros módulos 
 serão importados. O Angular CLI adicionará automaticamente a importação do ProdutosModule ao AppModule, 
 para que o Angular saiba sobre o novo módulo que acabamos de criar.
+
+
+
+ng g component produtos/detalhes-produto --module produtos.module:
+--produtos/detalhes-produto: Isso especifica o caminho relativo do componente que será gerado. 
+Neste caso, o novo componente chamado detalhes-produto será criado dentro da pasta produtos.
+--module produtos: Este argumento especifica o módulo no qual o novo componente será declarado automaticamente. 
+Aqui, produtos é o nome do módulo em que queremos que o componente seja automaticamente declarado.
