@@ -31,6 +31,13 @@ enter
 
 
 
-ng g module app-routing --flat --module app.module
+ng g module app-routing --flat --module app.module:
 --flat: Isso indica ao Angular CLI para gerar o arquivo no diretório atual em vez de criar um subdiretório.
 --module app.module: Isso indica ao Angular CLI para importar automaticamente o módulo gerado no módulo raiz app.module.ts.
+
+ng g module produtos --route produtos --module app.module:
+--route produtos: Isso cria uma rota chamada produtos e associa a rota ao módulo produtos que acabamos de criar. Isso significa que, 
+quando o usuário acessar a URL /produtos no navegador, o Angular carregará o módulo produtos e exibirá o conteúdo correspondente.
+--module app.module: Este argumento especifica o módulo principal do seu aplicativo (app.module.ts) onde as rotas e outros módulos 
+serão importados. O Angular CLI adicionará automaticamente a importação do ProdutosModule ao AppModule, 
+para que o Angular saiba sobre o novo módulo que acabamos de criar.
