@@ -28,3 +28,9 @@ ng g module lazy-loading --route=lazy-loading --module=app.module
 
 ng g guard auth
 enter
+
+
+
+ng g module app-routing --flat --module app.module
+--flat: Isso indica ao Angular CLI para gerar o arquivo no diretório atual em vez de criar um subdiretório.
+--module app.module: Isso indica ao Angular CLI para importar automaticamente o módulo gerado no módulo raiz app.module.ts.
