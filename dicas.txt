@@ -49,3 +49,5 @@ ng g component produtos/detalhes-produto --module produtos.module:
 Neste caso, o novo componente chamado detalhes-produto será criado dentro da pasta produtos.
 --module produtos: Este argumento especifica o módulo no qual o novo componente será declarado automaticamente. 
 Aqui, produtos é o nome do módulo em que queremos que o componente seja automaticamente declarado.
+
+ng add @angular/material
