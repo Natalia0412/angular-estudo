@@ -51,3 +51,11 @@ Neste caso, o novo componente chamado detalhes-produto será criado dentro da pa
 Aqui, produtos é o nome do módulo em que queremos que o componente seja automaticamente declarado.
 
 ng add @angular/material
+
+cria build/ criar o projeto em javascript :
+repositório já existente: ng build
+criar repositorio e build:
+ng build --base-href="https://Natalia0412.github.io/proway-computers/"
+
+
+na imagem sempre por ./assets
