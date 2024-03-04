@@ -55,7 +55,7 @@ ng add @angular/material
 cria build/ criar o projeto em javascript :
 repositório já existente: ng build
 criar repositorio e build:
-ng build --base-href="https://Natalia0412.github.io/proway-computers/"
+ng build --base-href="https://natalia0412.github.io/proway-computers/"
 
 
 na imagem sempre por ./assets
