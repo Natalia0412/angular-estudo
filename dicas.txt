@@ -59,3 +59,23 @@ ng build --base-href="https://natalia0412.github.io/proway-computers/"
 
 
 na imagem sempre por ./assets
+
+HttpClientModule é necessário para poder usar HttpClient que é responsável por fazer os métodos HTTPs no na URL do back-end,
+é preciso fazer configuração cors no backend 
+
+exemplo em Java:
+@Configuration
+@EnableWebMvc
+public class ConfiguracaoWeb implements WebMvcConfigurer {
+
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**")
+                .allowedOrigins("http://localhost:4200") // URL do frontend Angular
+                .allowedMethods("GET", "POST", "PUT", "DELETE")
+                .allowedHeaders("*")
+                .allowCredentials(true);
+    }
+}
+
+
